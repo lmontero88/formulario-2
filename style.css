@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: silver;
+    
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 75%;
+    height: auto;
+    display: flex;
+    margin-top: 60px;
+}
+
+.contact{
+    width: 30%;
+    background: rgb(225, 142, 65);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding:100px 30px 0px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.texto{
+    display: block;
+} 
+
+
+form{
+    width: 68%;
+    background: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+label, .input, textarea,.caja-boton{
+    width: 75%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 2px;
+    font-family: 'Roboto';
+    color: rgb(187, 187, 187);
+}
+.boton{
+    margin-top: 30px;
+    padding: 10px 30px;
+    color: seashell;
+    background: rgb(4, 32, 56);
+    display: flex;
+    align-content: flex-start;
+}
+ input::placeholder{
+     padding-left: 10px;
+ }
+ textarea{
+     padding-top: 20px;
+     padding-bottom: 30px;
+ }
+ label{
+     color: rgb(87, 86, 86);
+ }
+     
+     
